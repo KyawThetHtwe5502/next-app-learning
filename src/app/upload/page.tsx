@@ -11,7 +11,7 @@ const UploadPage = () => {
   return (
     <>
     {publicId && <CldImage src={publicId} width={270} height={180} alt="A coffee image"/>}
-    <CldUploadWidget uploadPreset="m1w82xjn" onSuccess={(result, {widget}) => {
+    <CldUploadWidget uploadPreset="m1w82xjn" onSuccess={(result) => {
         console.log(result)
         if(result.event !== 'success') return;
         const info  = result.info as CloudinaryResult

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {Roboto} from 'next/font/google';
+// import {Roboto} from 'next/font/google';
 import localFont from 'next/font/local';
 import NavBar from "./NavBar";
 import AuthProvider from "./auth/Provider";
 import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
-const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['400', '500']
-})
+// const roboto = Roboto({
+//   subsets: ['latin'],
+//   weight: ['400', '500']
+// })
 
 const poppins = localFont({
   src: '../../public/fonts/Poppins-Regular.woff2',
