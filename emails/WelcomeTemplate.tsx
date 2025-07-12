@@ -8,7 +8,7 @@ const WelcomeTemplate = ({ name }: { name: string }) => {
                 <Body className='bg-white'>
                     <Container>
                         <Text className='font-bold text-3xl'>Hello {name}</Text>
-                        <Link href='https:/codewithmosh.com'>www.codewithmosh.com</Link>
+                        <Link href='https://www.google.com'>google</Link>
                     </Container>
                 </Body>
             </Tailwind>
